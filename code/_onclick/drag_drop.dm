@@ -46,16 +46,6 @@
 			if(!user.can_perform_action(src, interaction_flags_mouse_drop | over.interaction_flags_mouse_drop | BYPASS_ADJACENCY))
 				return // is the mob not able to drag the object with both sides conditions applied
 
-	// Si el usuario es un mob carbon y el objeto arrastrado también, intentar bellyride
-	if(istype(user, /mob/living/carbon) && istype(src, /mob/living/carbon) && src != over && istype(over, /mob/living/carbon))
-		var/mob/living/carbon/user_carbon = user
-		var/mob/living/carbon/target_carbon = src
-		// Si el usuario se arrastra a sí mismo, ignorar
-		if(user_carbon != target_carbon)
-			if(user_carbon.bellyride(target_carbon))
-				return
-	mouse_drop_dragged(over, user, src_location, over_location, params)
-	over.mouse_drop_receive(src, user, params)
 
 /// The proc that should be overridden by subtypes to handle mouse drop. Called on the atom being dragged
 /atom/proc/mouse_drop_dragged(atom/over, mob/user, src_location, over_location, params)
