@@ -8,7 +8,7 @@
 	name = "Developer Commentary, Log 1: Setting"
 	used_capacity = 160
 
-	storedinfo = list(
+	storedinfo = alist(
 		1 = "<span class='game say'><span class='name'>The universal recorder</span> <span class='message'>says, \"<span class='tape_recorder '>Recording started.</span>\"</span></span>",
 		2 = "<span class='game say'><span class='name'>Unknown person</span> <span class='message'>blares, \"<span class=' '>Greetings, my name is Leon Gardner, and welcome to the beta test of a long awaited sequel to 'Time Of Valor: Border Rescue' - 'Time Of Valor 2'.</span>\"</span></span>",
 		3 = "<span class='game say'><span class='name'>Leon Gardner</span> <span class='message'>states, \"<span class=' '>After three years of development, hopefully it will be worth the wait.</span>\"</span></span>",
@@ -19,7 +19,7 @@
 		8 = "<span class='game say'><span class='name'>The universal recorder</span> <span class='message'>says, \"<span class='tape_recorder '>Recording stopped.</span>\"</span></span>",
 	)
 
-	timestamp = list(
+	timestamp = alist(
 		1 = 0,
 		2 = 20,
 		3 = 40,
@@ -34,7 +34,7 @@
 	name = "Developer Commentary, Log 2: Mechanics"
 	used_capacity = 160
 
-	storedinfo = list(
+	storedinfo = alist(
 		1 = "<span class='game say'><span class='name'>The universal recorder</span> <span class='message'>says, \"<span class='tape_recorder '>Recording started.</span>\"</span></span>",
 		2 = "<span class='game say'><span class='name'>Unknown person</span> <span class='message'>blares, \"<span class=' '>Hi, my name is Vanessa Parker, Main Mechanics Developer for the upcoming game 'Time Of Valor 2'.</span>\"</span></span>",
 		3 = "<span class='game say'><span class='name'>Vanessa Parker</span> <span class='message'>states, \"<span class=' '>Compared to the previous game installment, the new software and hardware upgrades allowed us to developed an in-depth simulation of molecules and realistic damage calculation for the players and the SNPCs.</span>\"</span></span>",
@@ -44,7 +44,7 @@
 		7 = "<span class='game say'><span class='name'>Vanessa Parker</span> <span class='message'>warns, \"<span class=' '>Which has been fixed by placing a 'fog of war' at the border between the NPC and SNPC zones. This was achieved by placing an ionised gas forcewall with a half-life of several dozens of years in order to make sure that the field doesn't disappear randomly.</span>\"</span></span>",
 		8 = "<span class='game say'><span class='name'>The universal recorder</span> <span class='message'>says, \"<span class='tape_recorder '>Recording stopped.</span>\"</span></span>",
 	)
-	timestamp = list(
+	timestamp = alist(
 		1 = 0,
 		2 = 20,
 		3 = 40,
@@ -59,7 +59,7 @@
 	name = "Developer Commentary, Log 3: SNPCs"
 	used_capacity = 160
 
-	storedinfo = list(
+	storedinfo = alist(
 		1 = "<span class='game say'><span class='name'>The universal recorder</span> <span class='message'>says, \"<span class='tape_recorder '>Recording started.</span>\"</span></span>",
 		2 = "<span class='game say'><span class='name'>Unknown person</span> <span class='message'>blares, \"<span class=' '>Sup, I am Mark Marshall, 'Time Of Valor 2''s SNPC Neural Programmer.</span>\"</span></span>",
 		3 = "<span class='game say'><span class='name'>Mark Marshall</span> <span class='message'>states, \"<span class=' '>New Smart NPC system has been briefly used in the first game's bossfight for the main enemy, to make sure that the fight would feel more rewarding and replayable.</span>\"</span></span>",
@@ -69,7 +69,7 @@
 		7 = "<span class='game say'><span class='name'>Mark Marshall</span> <span class='message'>warns, \"<span class=' '>Their models have also been greatly reworked to allow for other people to submit their own character appearances, so none of them will ever look the same.</span>\"</span></span>",
 		8 = "<span class='game say'><span class='name'>The universal recorder</span> <span class='message'>says, \"<span class='tape_recorder '>Recording stopped.</span>\"</span></span>",
 	)
-	timestamp = list(
+	timestamp = alist(
 		1 = 0,
 		2 = 20,
 		3 = 40,
